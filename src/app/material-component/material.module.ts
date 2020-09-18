@@ -32,6 +32,7 @@ import { SnackbarComponent } from './snackbar/snackbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
 import { TrakingbarComponent } from './trakingbar/trakingbar.component';
+import { SalesPointComponent } from './sales-point/sales-point.component';
 
 @NgModule({
   imports: [
@@ -64,7 +65,8 @@ import { TrakingbarComponent } from './trakingbar/trakingbar.component';
     SnackbarComponent,
     SliderComponent,
     SlideToggleComponent,
-    TrakingbarComponent
+    TrakingbarComponent,
+    SalesPointComponent
   ]
 })
 export class MaterialComponentsModule {}
